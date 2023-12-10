@@ -1,0 +1,76 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav a {
+    padding: .5rem;
+}
+
+li:hover{
+    background-color: coral;
+}
+
+li{
+    list-style: none;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+}
+
+form {
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 10px #000;
+    margin-top: 5%;
+}
+form div{
+    margin: 10px;
+}
+form label{
+    color: #9d9d9d;
+    display: inherit;
+}
+
+form input{
+    margin-bottom: 2%;
+
+}
+form input:focus{
+    outline-color: #EEE;
+
+
+}
+
+form button{
+    background-color: gold !important;
+    padding: 5% 10%;
+    border-radius: 12px;
+    margin-top: 5%;
+    font-weight: bold;
+    color: bisque;
+
+}
+
+.form-error{
+    margin: 0;
+    font-size: .8rem !important;
+    font-weight: bold;
+    color: red;
+}
+
+.edit-button{
+   color: lightblue;
+    text-decoration: underline;
+    font-size: large;
+
+}
+.delete-button{
+    background-color: none;
+    color: palevioletred;
+    text-decoration: underline;
+    font-size: large;
+}
